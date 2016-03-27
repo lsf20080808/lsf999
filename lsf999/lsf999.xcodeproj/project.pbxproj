@@ -15,6 +15,7 @@
 		DDD657151CA7DCD8006BFC2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDD657131CA7DCD8006BFC2F /* LaunchScreen.storyboard */; };
 		DDD657201CA7DCD9006BFC2F /* lsf999Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD6571F1CA7DCD9006BFC2F /* lsf999Tests.m */; };
 		DDD6572B1CA7DCD9006BFC2F /* lsf999UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD6572A1CA7DCD9006BFC2F /* lsf999UITests.m */; };
+		DDD6573A1CA7DFAA006BFC2F /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD657391CA7DFAA006BFC2F /* Dog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,9 @@
 		DDD657261CA7DCD9006BFC2F /* lsf999UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lsf999UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDD6572A1CA7DCD9006BFC2F /* lsf999UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lsf999UITests.m; sourceTree = "<group>"; };
 		DDD6572C1CA7DCD9006BFC2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDD657381CA7DFAA006BFC2F /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		DDD657391CA7DFAA006BFC2F /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		DDD6573B1CA7DFCD006BFC2F /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,8 @@
 				DDD657091CA7DCD8006BFC2F /* AppDelegate.m */,
 				DDD6570B1CA7DCD8006BFC2F /* ViewController.h */,
 				DDD6570C1CA7DCD8006BFC2F /* ViewController.m */,
+				DDD657381CA7DFAA006BFC2F /* Dog.h */,
+				DDD657391CA7DFAA006BFC2F /* Dog.m */,
 				DDD6570E1CA7DCD8006BFC2F /* Main.storyboard */,
 				DDD657111CA7DCD8006BFC2F /* Assets.xcassets */,
 				DDD657131CA7DCD8006BFC2F /* LaunchScreen.storyboard */,
@@ -118,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				DDD657061CA7DCD8006BFC2F /* main.m */,
+				DDD6573B1CA7DFCD006BFC2F /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -272,6 +279,7 @@
 			files = (
 				DDD6570D1CA7DCD8006BFC2F /* ViewController.m in Sources */,
 				DDD6570A1CA7DCD8006BFC2F /* AppDelegate.m in Sources */,
+				DDD6573A1CA7DFAA006BFC2F /* Dog.m in Sources */,
 				DDD657071CA7DCD8006BFC2F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +506,7 @@
 				DDD657311CA7DCD9006BFC2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DDD657321CA7DCD9006BFC2F /* Build configuration list for PBXNativeTarget "lsf999Tests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +515,7 @@
 				DDD657341CA7DCD9006BFC2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DDD657351CA7DCD9006BFC2F /* Build configuration list for PBXNativeTarget "lsf999UITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +524,7 @@
 				DDD657371CA7DCD9006BFC2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
